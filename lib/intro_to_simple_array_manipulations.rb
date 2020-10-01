@@ -1,5 +1,5 @@
 def using_concat (array1, array2)
-  array2.concat(array1)
+  array1.concat(array2)
 end 
 
 def using_insert(array, new_element)
@@ -19,6 +19,6 @@ def using_delete(array, string)
 end 
 
 def delete_at(array, integer)
-  array.delete(integer)  
+  array.delete_at(integer)  
 end
   
